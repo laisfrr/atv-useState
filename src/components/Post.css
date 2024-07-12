@@ -1,0 +1,38 @@
+.container-app {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  gap: 20px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.post-curtir {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.post-imagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post-imagem img {
+  width: 250px;
+}
+
+.like-icone {
+  width: 30px;
+}
